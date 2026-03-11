@@ -15,15 +15,21 @@ Este projeto foi criado com o objetivo de praticar conceitos de programação, o
 ✔ Interface simples via terminal
 
 🧱 Estrutura do Projeto
+---
 gas-station/
 
 ├── main.py      # Arquivo principal com o menu do sistema
+
 ├── data.py      # Dados iniciais (combustíveis e lista de vendas)
+
 ├── services.py  # Lógica de registro de vendas
+
 ├── reports.py   # Geração de relatórios e exportação CSV
-└── README.md    # Documentação do projeto
+
+
 ⛽ Combustíveis disponíveis
 
+---
 O sistema trabalha com os seguintes tipos de combustível:
 
 G → Gasolina
@@ -44,11 +50,17 @@ Estoque disponível
 
 ▶ Como executar o projeto
 1️⃣ Clonar o repositório
+
 git clone https://github.com/seu-usuario/gas-station.git
+
 2️⃣ Entrar na pasta do projeto
+
 cd gas-station
+
 3️⃣ Executar o programa
+
 python main.py
+
 📊 Menu do Sistema
 
 Ao executar o programa, o usuário verá o seguinte menu:
@@ -56,10 +68,15 @@ Ao executar o programa, o usuário verá o seguinte menu:
 === POSTO DE GASOLINA ===
 
 1 - Vender combustível
+
 2 - Ver estoque
+
 3 - Relatório de vendas
+
 4 - Exportar vendas (CSV)
+
 0 - Sair
+
 📁 Exportação de Dados
 
 A opção Exportar vendas (CSV) gera um arquivo com todas as vendas registradas, permitindo:
