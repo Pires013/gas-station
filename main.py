@@ -31,7 +31,11 @@ def main():
                 print(f"Erro: {e}")
 
         elif opcao == "2":
+<<<<<<< HEAD
             print("\n📦 ESTOQUE ATUAL")
+=======
+            print("\n ESTOQUE ATUAL")
+>>>>>>> 1e47244 (first commit)
             for c in combustiveis.values():
                 print(f"{c.nome}: {c.estoque:.2f}L")
 
