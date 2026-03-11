@@ -16,7 +16,7 @@ Este projeto foi criado com o objetivo de praticar conceitos de programação, o
 
 🧱 Estrutura do Projeto
 gas-station/
-│
+
 ├── main.py      # Arquivo principal com o menu do sistema
 ├── data.py      # Dados iniciais (combustíveis e lista de vendas)
 ├── services.py  # Lógica de registro de vendas
